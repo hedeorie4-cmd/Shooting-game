@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First-Person Shooting Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hud">
+      <h1>First-Person Range</h1>
+      <p>Click to lock pointer. Move: <strong>WASD</strong>, Shoot: <strong>Left Click</strong></p>
+      <div class="stats">
+        <span id="score">Score: 0</span>
+        <span id="ammo">Ammo: 30</span>
+        <span id="timer">Time: 60</span>
+      </div>
+      <p id="status">Click the canvas to start.</p>
+    </main>
+    <canvas id="gameCanvas" width="960" height="540" aria-label="First-person shooter game"></canvas>
+    <script src="game.js"></script>
+  </body>
+</html>
